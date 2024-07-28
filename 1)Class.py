@@ -1,4 +1,4 @@
-# Obyektlarni yaratish uchun shablon..  # noqa
+# Obyektlarni yaratish uchun shablon.  # noqa
 # https://github.com/theMirmakhmudov
 # https://youtube.com/@Mirmakhmudov_coder # noqa
 
