@@ -150,6 +150,8 @@ This pen's brand is Pilot
 This pen's thickness is 1.2mm
 ```
 
+---
+
 # 5.Encapsulation (Inkapsulyatsiya)
 `(ENG)`
 **Encapsulation is hiding the internal state of an object and providing access only through the required interface. This makes it easier to manage the internal state of the object and increases security.**
