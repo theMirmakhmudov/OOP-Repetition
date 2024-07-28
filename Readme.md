@@ -91,7 +91,7 @@ apple = SweetFruit("apple", "red", "sweet", "delicious")
 print(apple.show_display())  # This fruit's name is apple. It's sweet and delicious.
 ```
 
-### _Example:_
+### _Result:_
 ```text
 This fruit's name is apple. It's sweet and delicious.
 ```
@@ -138,7 +138,7 @@ print("----------------------------------------")
 show_result(red_pen)
 ```
 
-### _Example:_
+### _Result:_
 ```text
 This pen's color is blue
 This pen's price is 1$
@@ -181,7 +181,7 @@ deposit_balance = BankAccount.deposit(base_account, 300_000)
 print(BankAccount.get_balance(base_account))
 ```
 
-### _Example:_
+### _Result:_
 ```text
 400000
 ```
