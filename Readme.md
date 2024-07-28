@@ -30,6 +30,12 @@ class Book:
 fairy_tale_book = Book("Harry Potter and secret room", 1, "Joanna Ketlin Rouling")
 print(fairy_tale_book.say_book_name())
 ```
+
+### _Result:_
+```text 
+Book name is Harry Potter and secret room
+```
+
 ---
 # 2. Objects (Objektlar)
 `(ENG)`
@@ -45,8 +51,13 @@ class Car:
  ...
 my_car = Car("Toyota", "Corolla")
 print(my_car.display_info())  # Toyota Corolla
-
 ```
+
+### _Result:_
+```text
+My car brand is Toyota.My car name is Corolla
+```
+
 ----
 # 3. Inheritance (Meros Olish)
 `(ENG)`
@@ -79,6 +90,12 @@ apple = SweetFruit("apple", "red", "sweet", "delicious")
 # show result
 print(apple.show_display())  # This fruit's name is apple. It's sweet and delicious.
 ```
+
+### _Example:_
+```text
+This fruit's name is apple. It's sweet and delicious.
+```
+
 ---
 # 4. Polymorphism (Polimorfizm)
 `(ENG)`
@@ -121,6 +138,18 @@ print("----------------------------------------")
 show_result(red_pen)
 ```
 
+### _Example:_
+```text
+This pen's color is blue
+This pen's price is 1$
+This pen's brand is Lamy
+----------------------------------------
+This pen's color is red
+This pen's price is 2$
+This pen's brand is Pilot
+This pen's thickness is 1.2mm
+```
+
 # 5.Encapsulation (Inkapsulyatsiya)
 `(ENG)`
 **Encapsulation is hiding the internal state of an object and providing access only through the required interface. This makes it easier to manage the internal state of the object and increases security.**
@@ -151,6 +180,13 @@ base_account = BankAccount(100_000)
 deposit_balance = BankAccount.deposit(base_account, 300_000)
 print(BankAccount.get_balance(base_account))
 ```
+
+### _Example:_
+```text
+400000
+```
+
+---
 
 # 6.Abstraction (Abstraktsiya)
 `(ENG)`
@@ -198,5 +234,13 @@ print(word_doc.open("example"))  # Word document report.docx opened
 
 print(pdf_doc.save("example"))  # PDF document saved as report.pdf
 print(pdf_doc.open("example"))  # PDF document report.pdf opened
+```
+
+### _Result:_
+```text
+Word document saved as example.docx
+Word document example.docx opened
+PDF document saved as example.pdf
+PDF document example.pdf opened
 ```
 
